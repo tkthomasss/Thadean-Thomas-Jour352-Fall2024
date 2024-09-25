@@ -1,0 +1,36 @@
+/*
+MY COLOR PALETTE
+Rose Quartz - #9f9aa4
+Pale Dogwood - #E7CFCD
+Platinum - #CFD8D7
+Ash Gray - #B5C9C3
+Thistle - #CAB1BD
+*/
+
+body {
+    background-color: #E7CFCD;
+    text-align: center;
+}
+
+button {
+    background-color:#9f9aa4;
+    color: #CFD8D7;
+    font-family: "Poppins", sans-serif;
+    width: 200px;
+    padding: 10px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 12px
+}
+
+button:hover {
+    background-color: #B5C9C3;
+}
+
+h1{
+    font-family: "Abril Fatface", serif;
+}
+
+h2{
+    font-family: "Abril Fatface", serif;
+}
