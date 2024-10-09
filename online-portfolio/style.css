@@ -1,8 +1,51 @@
-h1{
-     font-family: "Abril Fatface", serif;
+@media {
+     h1 {
+          font-family: "Abril Fatface", serif;
+          font-size: 80px;
+          text-align: center;
+          margin-top: 250px;
+     
+     }
+
+     img {
+          width: 100%;
+     }
+
+     h2 {
+          font-family: "Poppins", serif;
+          font-size: 20px;
+          text-align: center;
+     }
+     h4 {
+          font-family: "Abril Fatface", serif;
+          font-size: 40px;
+     }
+     p {
+          font-family: "Poppins", serif;
+     }
+     button {
+          background-color: black;
+          color: white;
+          font-family: "Poppins", sans-serif;
+          width: 150px;
+          padding: 5px;
+          margin-top: 30px;
+          border: dotted;
+          border-radius: 500px;
+          border-color: pink;
+          text-align: center;
+     }
+
+     #navigation {
+          text-align: center;
+          text-transform: capitalize;
+          font-family: "Poppins", sans-serif;
+          font-size: 20px;
+     }
 }
 
-img{
-    width:200%
-
+@media (min-width: 576px) {
+     h1 {
+          font-size: 120px;
+     }
 }
