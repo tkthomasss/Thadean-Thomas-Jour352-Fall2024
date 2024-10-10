@@ -3,7 +3,7 @@
           font-family: "Abril Fatface", serif;
           font-size: 80px;
           text-align: center;
-          margin-top: 250px;
+          margin-top: 200px;
      
      }
 
@@ -19,6 +19,8 @@
      h4 {
           font-family: "Abril Fatface", serif;
           font-size: 40px;
+          border-bottom:5px solid pink;
+          padding-bottom: 10px;
      }
      p {
           font-family: "Poppins", serif;
@@ -30,18 +32,26 @@
           width: 150px;
           padding: 5px;
           margin-top: 30px;
-          border: dotted;
+          border: 5px dotted;
           border-radius: 500px;
           border-color: pink;
-          text-align: center;
+          margin:auto;
+          display:block;
      }
+     
+     button:hover {
+    background-color: pink;
+          color:white;
+}
 
      #navigation {
           text-align: center;
           text-transform: capitalize;
           font-family: "Poppins", sans-serif;
           font-size: 20px;
+          padding: 20px;
      }
+     
 }
 
 @media (min-width: 576px) {
