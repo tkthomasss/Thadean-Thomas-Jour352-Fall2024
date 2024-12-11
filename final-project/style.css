@@ -1,0 +1,21 @@
+#topper {
+    background-image: url(kamalaharrispic.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    height: 100vh;
+    position: relative;
+}
+
+#title {
+    background-color: lightgray;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#titleh1 {
+    color: white;
+}
+h4{
+    text-align:center;
+}
