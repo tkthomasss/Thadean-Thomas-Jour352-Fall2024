@@ -2,36 +2,46 @@
     background-image: url(kamalaharrispic.png);
     background-size: cover;
     background-position: center;
-    padding: 0px;
+    padding: 4px;
     height: 100vh;
     position: relative;
+    text-align: center;
+    margin-bottom: 380px;
 }
 
-#title {
-    background-color: lightgray;
+.title {
+    background-color: #3c91e6;
     color: black;
     text-align: center;
+    border-radius: 25px;
+    padding: 15px;
+    position: absolute;
+    bottom: 60%;
+    left: 50%;
 }
-
+img {
+    width: 100%;
+    align-content: center;
+}
 #titleh1 {
     color: white;
     font-size: 50px;
 }
 h4 {
-    font-family: "abril fatface", serif;
+    font-family: "Shrikhand", serif;
     text-align: center;
 }
 
 h3 {
-    font-family: "abril fatface", serif;
+    font-family: "poppins", sans-serif;
 }
 
 h1 {
-    font-family: "abril fatface", serif;
+    font-family: "Shrikhand", serif;
 }
 
 h2 {
-    font-family: "abril fatface", serif;
+    font-family: "Shrikhand", serif;
 }
 p {
     font-family: "poppins", sans-serif;
@@ -41,7 +51,8 @@ p {
     font-family: "poppins", sans-serif;
 }
 #disclaimer {
-    font-weight: 800;
+    font-weight: 700;
+    text-align: center;
 }
 .pullquote {
     background-color: #f29ca3;
@@ -49,8 +60,94 @@ p {
 }
 .quote {
     font-size: 50px;
+    font-weight: 200;
+    padding: 15px;
 }
 .attribution {
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 700;
+    padding: 15px;
+}
+#intro {
+    font-size: 20px;
+    text-align: center;
+}
+
+#riseladydems {
+    font-size: 20px;
+    text-align: center;
+}
+
+#pinkwave {
+    font-size: 20px;
+    text-align: center;
+}
+
+#olivanope {
+    font-size: 20px;
+    text-align: center;
+}
+
+#stylepercp {
+    font-size: 20px;
+    text-align: center;
+}
+
+#hilllove {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    #intro {
+        width: 80%;
+    }
+
+    #riseladydems {
+        width: 80%;
+    }
+
+    #pinkwave {
+        width: 80%;
+    }
+
+    #olivanope {
+        width: 80%;
+    }
+
+    #stylepercp {
+        width: 80%;
+    }
+
+    #hilllove {
+        width: 80%;
+    }
+    h1 {
+        font-size: 100px;
+    }
+}
+@media (min-width: 768px) {
+    #intro {
+        width: 50%;
+    }
+
+    #riseladydems {
+        width: 50%;
+    }
+
+    #pinkwave {
+        width: 50%;
+    }
+
+    #olivanope {
+        width: 50%;
+    }
+
+    #stylepercp {
+        width: 50%;
+    }
+
+    #hilllove {
+        width: 50%;
+    }
 }
