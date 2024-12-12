@@ -9,13 +9,48 @@
 
 #title {
     background-color: lightgray;
-    opacity: 0.7;
+    color: black;
     text-align: center;
 }
 
 #titleh1 {
     color: white;
+    font-size: 50px;
 }
-h4{
-    text-align:center;
+h4 {
+    font-family: "abril fatface", serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: "abril fatface", serif;
+}
+
+h1 {
+    font-family: "abril fatface", serif;
+}
+
+h2 {
+    font-family: "abril fatface", serif;
+}
+p {
+    font-family: "poppins", sans-serif;
+}
+
+#subheading {
+    font-family: "poppins", sans-serif;
+}
+#disclaimer {
+    font-weight: 800;
+}
+.pullquote {
+    background-color: #f29ca3;
+    border-radius: 25px;
+}
+.quote {
+    font-size: 50px;
+}
+.attribution {
+    font-size: 25px;
+    font-weight: 500;
 }
